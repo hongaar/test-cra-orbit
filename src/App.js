@@ -2,8 +2,13 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+import schema from './schema'
+
 class App extends Component {
   render() {
+
+    console.log(schema)
+
     return (
       <div className="App">
         <div className="App-header">
